@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import { LayoutCardItem } from '@/common/constant/LayoutsCardItem'
+import { motion } from 'framer-motion'
 
 const LayoutCard = () => {
   return (
@@ -7,12 +9,16 @@ const LayoutCard = () => {
       <div className='text-white flex items-center gap-5 justify-center'>
       <div className='h-[90px] w-[1px] bg-white'></div>
         {LayoutCardItem.map((item, index) => (
-            <div key={index} className='text-white flex items-center gap-5 justify-center px-1'>
+            <motion.div key={index} className='text-white flex items-center gap-5 justify-center px-1'
+            initial={{opacity: 0, translateY: 50}}
+            whileInView={{opacity: 1, translateY: 0, transition: {type: 'spring', duration: 1.5, delay: index * 0.3}}}
+            viewport={{once: true}}
+            >
             <h1 className='md:text-lg text-sm'>
                 {item.title}
             </h1>
             <div className='h-[90px] w-[1px] bg-white'></div>
-            </div>
+            </motion.div>
         ))}
       </div>
     </div>

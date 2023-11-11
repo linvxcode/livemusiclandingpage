@@ -1,11 +1,16 @@
+'use client'
 import React from 'react'
 import ElectricSvg from '../../Secondpage/component/ElectricSvg'
 import { TripleCardItem } from '@/common/constant/TripleCardItem'
 import clsx from 'clsx'
-
+import { motion } from 'framer-motion'
 const TripleCard = () => {
   return (
-    <div className='grid grid-cols-4  overflow-x-scroll gap-[320px] no-scrollbar w-full md:px-10 z-[9] absolute  bottom-[-100px]'>
+    <motion.div className='grid grid-cols-4 overflow-x-scroll gap-[320px] no-scrollbar w-full md:px-10 z-[9] absolute  bottom-[-100px]'
+    initial={{translateX: -100}}
+    whileInView={{translateX: -5, transition: {type: "spring", duration: 1.5}}}
+    viewport={{once: true}}
+    >
     {TripleCardItem.map((item, index) => (
     <div key={index} className={clsx(
         item.bg, 
@@ -21,7 +26,7 @@ const TripleCard = () => {
       </div>
     </div>
     ))}
-    </div>
+    </motion.div>
   )
 }
 
