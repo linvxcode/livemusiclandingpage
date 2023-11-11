@@ -52,7 +52,7 @@ const Navbar = () => {
           <Login scrolled={scrolled} />
         </div>
         <div className="lg:hidden flex ml-2">
-          <NavMobile />
+          <NavMobile scrolled={scrolled} />
         </div>
       </div>
     </div>
