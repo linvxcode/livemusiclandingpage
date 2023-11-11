@@ -4,9 +4,9 @@ import RightImage from "./component/RightImage";
 
 const Fifthpage = () => {
   return (
-    <div className="h-screen bg-[#009B47]">
-      <div className="flex justify-between ">
-        <div className="w-[60%] justify-center relative rounded-r-[100px] flex  h-screen bg-[#1E1E1E] ">
+    <div className="md:h-screen h-[160vh] bg-[#009B47]">
+      <div className="flex  justify-between ">
+        <div className="md:w-[60%] w-[90%] justify-center relative rounded-r-[100px] flex  md:h-screen bg-[#1E1E1E] ">
           <LeftTextFifth />
           <RightImage />
           

@@ -3,7 +3,7 @@ import ElectricSvg from "./ElectricSvg";
 
 const SecondCard = () => {
   return (
-    <div className="h-auto w-[27%] px-10 py-10 rounded-3xl absolute bg-neutral-800/95 bottom-[70px] left-[200px]">
+    <div className="h-auto w-[60%] md:w-[27%] md:px-10 md:py-10 px-5 py-5 rounded-3xl absolute bg-neutral-800 md:bottom-[70px] bottom-[370px] md:left-[200px]">
       <div className="flex gap-1 items-center">
         <ElectricSvg />
         <h1 className="text-white">Your Text Here</h1>

@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 const TripleCard = () => {
   return (
-    <div className='flex  gap-5  px-10 z-[9] absolute  bottom-[-100px]'>
+    <div className='flex max-md:hidden gap-5  px-10 z-[9] absolute  bottom-[-100px]'>
     {TripleCardItem.map((item, index) => (
     <div key={index} className={clsx(
         item.bg, 

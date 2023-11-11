@@ -5,7 +5,7 @@ const LeftText = () => {
   return (
     <div className="w-full mt-[150px]  px-10">
       <h1 className="text-6xl w-[20%] font-bold text-[#009B47]">RELAX MUSIC</h1>
-      <h2 className="w-[40%] mt-3">
+      <h2 className="md:w-[40%] mt-3">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       </h2>

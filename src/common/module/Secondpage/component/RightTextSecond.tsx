@@ -3,7 +3,7 @@ import React from "react";
 
 const RightTextSecond = () => {
   return (
-    <div className="flex flex-col mt-[150px] w-[40%]">
+    <div className="flex flex-col mt-[150px] px-5 max-md:mb-5 md:w-[40%]">
       <h1 className="text-6xl font-bold">FREE SONG</h1>
       <h2 className="max-xl:w-[90%]">
         Lorem Ipsum is simply dummy text of the printing and typesetting

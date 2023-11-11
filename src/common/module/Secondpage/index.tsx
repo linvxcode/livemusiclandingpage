@@ -6,8 +6,8 @@ import SecondCard from "./component/SecondCard";
 
 const Secondpage = () => {
   return (
-    <div className="h-screen relative">
-      <div className="flex justify-between ">
+    <div className="h-auto relative">
+      <div className="flex max-md:flex-col justify-between ">
         <LeftTextSecond/>
         <RightTextSecond/>
         <SecondImageLeft/>
