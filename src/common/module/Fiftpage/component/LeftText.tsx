@@ -1,6 +1,7 @@
 import Buttons from "@/common/component/element/Buttons";
 import Layouts from "@/common/component/element/Layouts";
 import React from "react";
+import { BiBookReader } from "react-icons/bi";
 
 const LeftTextFifth = () => {
   return (
@@ -14,7 +15,13 @@ const LeftTextFifth = () => {
           industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
           text ever since the 1500s,
         </h2>
-        <Buttons className="mt-3" href="" icon="" icons="" title="Read More" />
+        <Buttons
+          className="mt-3"
+          href=""
+          icon={<BiBookReader size={30} />}
+          icons={<BiBookReader size={40} className="text-green-600" />}
+          title="Read More"
+        />
       </Layouts>
     </div>
   );

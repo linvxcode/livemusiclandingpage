@@ -2,6 +2,7 @@
 import Buttons from "@/common/component/element/Buttons";
 import React from "react";
 import { motion } from "framer-motion";
+import {MdOutlineWidgets} from 'react-icons/md'
 
 const Mainpage = () => {
   return (
@@ -17,7 +18,7 @@ const Mainpage = () => {
             Welcome to our vibrant and exciting platform, your ultimate
             destination for all things live music!
           </h2>
-          <Buttons className="mt-3 max-md:bg-white max-md:!text-black" href="" icon="" icons="" title="Get Started" />
+          <Buttons className="mt-3 max-md:bg-white max-md:!text-black" href="" icon={<MdOutlineWidgets size={30} />} icons={<MdOutlineWidgets className="text-green-600" size={40} />} title="Get Started" />
         </motion.div>
       </div>
     </div>
