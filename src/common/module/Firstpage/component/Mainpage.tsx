@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Mainpage = () => {
   return (
-    <div className="md:mt-40 mt-[-100px] relative z-[9] w-full pl-10 xl:pl-[100px]">
+    <div className="md:mt-40 mt-[-100px] relative z-[9] w-full pl-10 xl:pl-[80px]">
       <div className="flex justify-between">
         <motion.div className=" w-[80%]" 
         initial={{opacity: 0, translateY: 50}}

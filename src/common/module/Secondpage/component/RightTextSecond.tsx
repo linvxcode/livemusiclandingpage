@@ -1,4 +1,3 @@
-import Buttons from "@/common/component/element/Buttons";
 import Layouts from "@/common/component/element/Layouts";
 import React from "react";
 import AnimateButton from "./AnimateButton";
@@ -6,7 +5,7 @@ import AnimateButton from "./AnimateButton";
 const RightTextSecond = () => {
   return (
     <div className="flex flex-col mt-[150px] px-5 max-md:mb-5 md:w-[40%]">
-      <Layouts delay={0.4}>
+      <Layouts delay={0.2}>
         <h1 className="text-6xl font-bold">FREE SONG</h1>
         <h2 className="max-xl:w-[90%]">
           Lorem Ipsum is simply dummy text of the printing and typesetting

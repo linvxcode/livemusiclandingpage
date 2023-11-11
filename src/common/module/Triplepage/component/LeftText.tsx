@@ -4,8 +4,8 @@ import React from "react";
 
 const LeftText = () => {
   return (
-    <div className="w-full mt-[150px]  px-10">
-      <Layouts delay={0.4}>
+    <div className="w-full mt-[150px] md:px-20 px-5">
+      <Layouts delay={0.2}>
       <h1 className="text-6xl w-[20%] font-bold text-[#009B47]">RELAX MUSIC</h1>
       <h2 className="md:w-[40%] mt-3">
         Lorem Ipsum is simply dummy text of the printing and typesetting

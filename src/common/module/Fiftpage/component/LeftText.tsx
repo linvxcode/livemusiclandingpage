@@ -4,8 +4,8 @@ import React from "react";
 
 const LeftTextFifth = () => {
   return (
-    <div className="w-full mt-[180px] max-lg:pb-10 px-10">
-      <Layouts delay={1}>
+    <div className="w-full mt-[180px] max-lg:pb-10 md:px-20 px-5">
+      <Layouts delay={0.2}>
         <h1 className="md:text-6xl text-5xl md:w-[70%] font-bold text-white">
           LIVE YOUR DAY WITH MUSIC
         </h1>
