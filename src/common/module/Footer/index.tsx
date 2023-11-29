@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-auto flex md:justify-center justify-start items-center bg-[#252525]">
+    <div className="h-auto flex md:justify-center justify-start items-center bg-[#009B47]">
       <div className="grid md:grid-cols-2 lg:grid-cols-3  place-items-start gap-10 mt-10 text-white px-10 py-10">
         <div>
           <h1 className="text-3xl ">Live Music</h1>

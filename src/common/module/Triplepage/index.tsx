@@ -5,9 +5,9 @@ import TripleCard from "./component/TripleCard";
 
 const Triplepage = () => {
   return (
-    <div className="h-auto relative">
+    <div className="md:h-[110vh] h-[150vh]  relative">
       <div className="flex justify-between ">
-        <div className="md:w-[90%] justify-center relative rounded-r-[100px] flex overflow-hidden h-[120vh] md:h-screen bg-[#fff] ">
+        <div className="md:w-[90%]  relative rounded-r-[100px] md:overflow-hidden flex  h-[66vh] md:h-screen bg-[#fff] ">
           <LeftText />
           <RightImg/>
         </div>

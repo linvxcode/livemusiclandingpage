@@ -12,16 +12,17 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState<boolean>(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScrolled(window.scrollY > 20);
-    });
+      window.addEventListener("scroll", () => {
+        setScrolled(window.scrollY > 20);
+      });
   }, []);
 
   return (
     <div
       className={clsx(
         scrolled ? `navbg` : ``,
-        `w-full transition-all 2xl:rounded-3xl duration-300 mx-auto max-w-[1500px] py-5 px-5 lg:px-10 fixed top-0 z-[99]`
+        
+        `w-full  transition-all 2xl:rounded-3xl duration-300 mx-auto max-w-[1500px] py-5 px-5 lg:px-10 fixed top-0 z-[99]`
       )}
     >
       <div className="flex xl:px-10 flex-row justify-between items-center ">

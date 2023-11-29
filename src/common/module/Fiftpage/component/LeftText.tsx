@@ -7,10 +7,10 @@ const LeftTextFifth = () => {
   return (
     <div className="w-full mt-[180px] max-lg:pb-10 md:px-20 px-5">
       <Layouts delay={0.2}>
-        <h1 className="md:text-6xl text-5xl md:w-[70%] font-bold text-white">
-          LIVE YOUR DAY WITH MUSIC
+        <h1 className="md:text-7xl text-5xl md:w-[80%] font-bold text-[#1E1E1E] ">
+         <span className=" text-[#009B47]">LIVE YOUR DAY</span> WITH MUSIC
         </h1>
-        <h2 className="md:w-[70%] text-white mt-3 line-clamp-3">
+        <h2 className="md:w-[80%] leading-9 py-3 text-[#1E1E1E] mt-3 max-md:line-clamp-3">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry&rsquo;s standard dummy
           text ever since the 1500s,
