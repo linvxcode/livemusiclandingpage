@@ -3,7 +3,7 @@ import React from "react";
 
 const RightImg = () => {
   return (
-    <div className=" md:w-[500px] rounded-tl-[200px] mt-[90px] md:mt-[130px] flex justify-center  absolute right-0">
+    <div className=" md:w-[500px] sm:w-[350px] max-sm:w-[330px] rounded-tl-[200px] mt-[90px] md:mt-[130px] flex justify-center  absolute right-0">
       <Image
         src="/img/image3.png"
         loading="lazy"

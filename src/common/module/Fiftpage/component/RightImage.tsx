@@ -3,7 +3,7 @@ import React from 'react'
 
 const RightImage = () => {
   return (
-    <div className='max-md:absolute max-md:top-[400px] max-md:left-[60px] min-[450px]:pl-[120px] '>
+    <div className='max-md:absolute max-md:top-[210px] max-md:left-[60px] min-[450px]:pl-[120px] '>
     <div className="w-[300px] max-[450px]:!w-[200px] top-[400px] flex justify-center  absolute max-md:right-[-200px]">
       <Image
         src="/img/image2.png"

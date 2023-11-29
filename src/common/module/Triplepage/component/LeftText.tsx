@@ -5,7 +5,7 @@ import { BiBookReader } from "react-icons/bi";
 
 const LeftText = () => {
   return (
-    <div className="md:w-[60%] mt-[500px] md:mt-[150px] md:px-20 px-5">
+    <div className="md:w-[60%] mt-[550px] md:mt-[150px] md:px-20 px-5">
       <Layouts delay={0.2}>
         <h1 className="md:text-7xl text-5xl w-[20%] font-bold text-[#009B47]">
           RELAX MUSIC

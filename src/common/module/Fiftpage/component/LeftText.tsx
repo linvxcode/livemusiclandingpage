@@ -5,7 +5,7 @@ import { BiBookReader } from "react-icons/bi";
 
 const LeftTextFifth = () => {
   return (
-    <div className="w-full mt-[180px] max-lg:pb-10 md:px-20 px-5">
+    <div className="w-full mt-[80px] md:mt-[180px] max-lg:pb-10 md:px-20 px-5">
       <Layouts delay={0.2}>
         <h1 className="md:text-7xl text-5xl md:w-[80%] font-bold text-[#1E1E1E] ">
          <span className=" text-[#009B47]">LIVE YOUR DAY</span> WITH MUSIC

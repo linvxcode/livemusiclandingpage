@@ -23,9 +23,6 @@ const LayoutCard = ({className}: any) => {
             </motion.div>
         ))}
       </div>
-      {/* <div className='max-md:flex hidden w-full'>
-        <Sliders/>
-      </div> */}
     </div>
   )
 }

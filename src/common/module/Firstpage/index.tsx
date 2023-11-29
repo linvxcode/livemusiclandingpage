@@ -5,7 +5,7 @@ import LayoutCard from '../Fiftpage/component/LayoutCard'
 
 const Firstpage = () => {
   return (
-    <div className='flex md:h-screen h-auto justify-center items-center max-md:flex-col relative max-w-[1500px] '>
+    <div className='flex md:h-screen h-auto justify-center items-center max-md:flex-col relative '>
       <Mainpage/>
       <MainImg/>
       <LayoutCard/>

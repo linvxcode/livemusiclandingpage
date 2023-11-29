@@ -4,7 +4,7 @@ import AnimateButton from "./AnimateButton";
 
 const RightTextSecond = () => {
   return (
-    <div className="flex flex-col mt-[150px] px-5 max-md:mb-32 md:w-[40%]">
+    <div className="flex flex-col mt-[70px] md:mt-[150px] px-5 max-md:mb-32 md:w-[40%]">
       <Layouts delay={0.2}>
         <h1 className="md:text-7xl text-5xl md:w-[40%] font-bold">FREE SONG</h1>
         <h2 className="max-xl:w-[90%] text-[1rem] leading-9 py-5">
